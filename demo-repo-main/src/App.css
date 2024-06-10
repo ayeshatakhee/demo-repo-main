@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+}
+.content{
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* .sidebar {
+  width: 300px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+} */
+
+/* .content {
+  flex: 1;
+  padding: 20px;
+} */
+
+/* .menu-item {
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+} */
+
+/* .menu-item:hover {
+  background-color: #e9ecef;
+} */
+/* 
+.queue-mover {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.queue-mover h2 {
+  margin-top: 0;
+}
+
+.queue-mover select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.queue-mover button {
+  background-color: #ffc107;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.queue-mover button:hover {
+  background-color: #e0a800;
+} */

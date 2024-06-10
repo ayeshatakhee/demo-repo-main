@@ -1,0 +1,52 @@
+.queue-monitor {
+    width: 80%; /* Adjust width to fit your layout */
+    margin-left: auto; /* Center the div horizontally */
+    padding: 20px;
+    background-color: #fff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.queue-monitor h2 {
+    margin-left: 400px; /* Center the heading */
+    color: #333; /* Dark grey color for text */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.queue-list {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+.queue-item {
+    display: grid;
+    grid-template-columns: auto minmax(100px, max-content); /* Adjust column sizing */
+    align-items: center; /* Center items vertically */
+    padding: 10px;
+    border-bottom: 1px solid #eee; /* Light grey border for each item */
+    margin-bottom: 8px; /* Space between items */
+}
+
+.queue-item span {
+    margin-left: 50px;
+    white-space: nowrap; /* Prevents text from wrapping */
+    width: 450px;
+    overflow: hidden; /* Ensures long text doesn't break the layout */
+    text-overflow: ellipsis; /* Adds an ellipsis to truncated text */
+    margin-right: 20px; /* Ensures space between the name and the button */
+}
+
+.queue-item button {
+    margin-right: 400px;
+    padding: 8px 16px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.queue-item button:hover {
+    background-color: #367c39; /* Darker green on hover */
+}

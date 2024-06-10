@@ -1,0 +1,90 @@
+/* .sidebar {
+    width: 280px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+}
+
+.sidebar-title {
+    font-size: 20px;
+    /* text-align: center; */
+    /* margin-bottom: 20px;
+    margin-left: 10px; */
+/* } */
+
+/* .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-item {
+    margin-bottom: 10px;
+}
+
+.sidebar-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar-link:hover {
+    background-color: #555;
+} */
+
+.sidebar {
+    width: 280px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height:500px;
+    margin-left: 30px;
+    background-color: #fff; /* Changed from #333 to white */
+    color: #333; /* Changed text color to dark grey for visibility */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Lighter shadow for a subtler effect */
+}
+
+.sidebar-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sidebar-link {
+    color: #333; /* Dark grey text */
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+    border-radius: 5px; /* Optional: Rounded corners for the links */
+}
+
+.sidebar-link:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+    border-bottom-color:#073f0a
+}
+
+.sidebar-link.active {
+    background-color: #e8f5e9; /* Light green background for hover and active state */
+    border-bottom-color: #073f0a; /* Dark green border to indicate active/hover state */
+}

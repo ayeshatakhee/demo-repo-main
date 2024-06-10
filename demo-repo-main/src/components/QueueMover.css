@@ -1,0 +1,51 @@
+.queue-mover {
+    width: 80%;
+    max-width: 600px; /* Limit maximum width to maintain form usability */
+    margin: 20px auto; /* Center the form on the page */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.queue-mover h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.queue-mover form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.queue-mover select {
+    width: 90%; /* Responsive width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.queue-mover select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.queue-mover button {
+    width: 50%; /* Manageable button width */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.queue-mover button:hover {
+    background-color: #367c39;
+}

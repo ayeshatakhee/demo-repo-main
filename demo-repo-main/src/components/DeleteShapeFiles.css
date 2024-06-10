@@ -1,0 +1,12 @@
+.delete-files {
+    padding: 20px;
+    margin: 20px;
+     background-color: #f9f9f9;  /*// Light grey background */
+    border-radius: 8px;  /*// Rounded corners*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /*// Subtle shadow for depth*/
+}
+
+.delete-files h2 {
+    text-align: center;
+    color: #333;
+}
